@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Training artefacts
+catboost_info/
+*.pkl.bak
+
+# Large media (GitHub limit: 100 MB per file)
+*.mp4
+*.mov
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
